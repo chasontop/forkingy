@@ -1,0 +1,14 @@
+.reminder-modal-frame {
+    display: block!important;
+    overflow: visible!important;
+    width: 331px!important;
+    background: rgb(255, 255, 255);
+    position: fixed!important;
+    box-shadow: 0 5px 70px rgba(0, 0, 0, 0.29);
+    border-radius: 5px!important;
+    z-index: 9999!important;
+    right: 166px!important;
+    border: 0!important;
+    height: 464px!important;
+    top: 167px!important;
+}

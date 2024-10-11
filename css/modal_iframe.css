@@ -1,0 +1,90 @@
+body, section {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.content-section h1 {
+    margin-bottom: 9px;
+    padding-right: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+    color: #212121;
+    line-height: 38px;
+    font-size: 33px;
+}
+.icon-section a {
+    top: 0;
+    right: 1px;
+    position: absolute;
+}
+.content-section button {
+    margin: 32px 29px auto;
+    line-height: 21px;
+    filter: drop-shadow(0px 4px 11px rgba(22, 92, 16, 0.17));
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #24DA53;
+    height: 53px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #2DC053;
+    font-weight: bold;
+}
+.content-section h1 {
+    margin: auto;
+}
+.content-section button:hover {
+    filter: drop-shadow(0px 4px 15px rgba(22, 92, 16, 0.4));
+    border: 1px solid #24DA53;
+    background: linear-gradient(90deg, #20C448 0%, rgba(17, 151, 47, 0.524479) 98.96%, rgba(48, 182, 78, 0.37) 100%), #2DC053;
+}
+.icon-section {
+    flex-direction: column;
+    display: flex;
+    height: 198px;
+    background: rgba(241, 243, 244, 0.8);
+    border-radius: 4px;
+}
+.icon-section .icon {
+    position: relative;
+    margin: auto auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+.content-section p {
+    margin-left: 44px;
+    color: #757575;
+    padding-left: 22px;
+    font-weight: normal;
+    background: url("../img/check.svg") no-repeat left center;
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 0;
+    padding-right: 20px;
+}
+.content-section {
+    display: flex;
+    flex-direction: column;
+    height: 266px;
+}
+.icon-section::before {
+    position: absolute;
+    width: 70px;
+    display: block;
+    top: 0;
+    content: "";
+    height: 71px;
+    background: rgba(241, 243, 244, 0.8) url("../img/top-left.svg") no-repeat;
+    left: 0;
+}
